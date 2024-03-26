@@ -1,0 +1,101 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
+            <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"/>
+            <mj-class name="d-section" background-color="#fff" width="600px" padding="0px" />
+            <mj-class name="d-titre" padding="3px 60px" font-family="Montserrat,sans-serif" font-size="58px" line-height="58px" color="#BD1622"/>
+            <mj-class name="d-sous-titre" padding-top="10px" padding-bottom="3px" font-family="Montserrat,sans-serif" font-size="36px" line-height="36px" color="#BD1622"/>
+            <mj-class name="d-text" padding="6px 60px" font-family="Roboto,Arial,sans-serif" align="left" font-size="16px" line-height="20px" color="#141414"/>
+            <mj-class name="d-li" padding="0 60px 0 80px" font-family="Roboto,Arial,sans-serif" align="left" font-size="16px" line-height="20px" color="#141414"/>
+            <mj-class name="d-admin" padding="5px" font-family="Roboto,Arial,sans-serif" align="center" font-size="12px" line-height="14px" font-weight="400" color="#626262" />
+        </mj-attributes>
+        <mj-title>Arrêt du jeu concours Noël 2023</mj-title>
+        <mj-style>
+            @media(max-width:480px){
+                .m-padding{
+                    padding:4px 15px !important;
+                }
+                .m-padding-li{
+                    padding:0px 15px 0px 25px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#FAFAFA">
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text mj-class="d-admin">
+                    Si tu ne parviens pas à lire cet e-mail, clique <a style="color:#BD1622;text-decoration:none;" href="{{ mirror }}">ici</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-image href="https://supveto.com" padding="0" src="src/images/letEmailling_01.jpg" target="_blank" alt="Image extraite de l'affiche du jeu-concours Photo de Noël 2023"/>
+            </mj-column>
+        </mj-section>
+    <!--titre-->
+        <mj-section mj-class="d-section" padding-bottom="20px">
+            <mj-column>
+                <mj-text align="center" mj-class="d-sous-titre" text-transform="uppercase" font-weight="300" css-class="m-padding">
+                   Février 2024 :
+                </mj-text>
+                <mj-text align="center" mj-class="d-titre" text-transform="uppercase" font-weight="900" css-class="m-padding">
+                Grand Prix de la Photo SupVeto
+                </mj-text>
+                <mj-image align="center" src="src/images/letEmailling_04.jpg" width="50px" alt="icon appareil photographique" />
+            </mj-column>
+        </mj-section>
+    <!--texte Principal-->
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-text mj-class="d-text" css-class="m-padding">
+               <b>{{ contact.PRENOM }}</b>, toute l’équipe de <b>SupVéto national</b>, formateurs et collaborateurs, est heureuse de te présenter ainsi qu'à l’ensemble de ses étudiants des <strong>vœux chaleureux</strong> pour une année de réussite et d’épanouissement au sein de cette filière.
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                 Merci également à tous ceux qui ont choisi de participer à notre <strong>Jeu-concours <span style="color:#BD1622;">Photo de Noël 2023</span></strong> mettant en scène leur animal favori.
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                Un grand succès avec une soixantaine de participants et des clichés particulièrement festifs.
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                L'heure du vote est pour bientôt ! Un autre courriel vous sera adressé pour vous en présenter les modalités. 
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                Encore Merci à tous !
+                </mj-text>
+                </mj-column>
+                </mj-section>
+    <!--Signature-->
+        <mj-section mj-class="d-section" padding-top="35px" padding-bottom="45px">
+            <mj-column>
+                <mj-image href="https://supveto.com" src="src/images/letEmailling_08.jpg" padding="0px" width="250px" target="_blank" alt="Logo SupVéto" />
+                <mj-text padding="2px 0px" align="center" font-size="13px" color="#696969">
+                  17 des Ursulines - 59200 TOURCOING
+                </mj-text>
+                <mj-text padding="2px" align="center"  font-size="13px" color="#696969">
+                   03.20.70.06.06
+                </mj-text>
+                <mj-social padding-top="10px" align="center" icon-size="35px" mode="horizontal">
+                    <mj-social-element background-color="#07663a" padding-right="20px" name="facebook" href="https://www.facebook.com/supvetonational"></mj-social-element>
+                    <mj-social-element background-color="#07663a" padding-left="20px" name="instagram" href="https://www.instagram.com/supveto.france/"></mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+            <mj-text mj-class="d-admin" line-height="14px">
+                Cet email a été envoyé à <span style="color:#BD1622;text-decoration:none;">{{contact.EMAIL}}</span>,<br>
+                 tu l'as reçu car tu suis la formation SUPVETO.
+            </mj-text>
+            <mj-text mj-class="d-admin" >
+                <a style="color:#BD1622;text-decoration:none;" href="{{ unsubscribe }}">Se désinscrire</a>
+</mj-text>
+<mj-text mj-class="d-admin">
+©2024 SUPVETO
+            </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
